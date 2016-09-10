@@ -1,0 +1,9 @@
+[ 2016-09-02T12:49:50+08:00 ] 127.0.0.1 /index.php/Admin/Pick/first.html
+ERR: Think\Controller:db方法不存在！
+
+[ 2016-09-02T12:49:53+08:00 ] 127.0.0.1 /index.php/Admin/Pick/second.html
+ERR: Think\Controller:db方法不存在！
+
+[ 2016-09-02T12:49:54+08:00 ] 127.0.0.1 /index.php/Admin/Pick/third.html
+ERR: Think\Controller:db方法不存在！
+

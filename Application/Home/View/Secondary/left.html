@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/home/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/home/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+
+
+</head>
+
+<body style="background:#f0f9fd;">
+	<div class="lefttop"><span></span>个人信息</div>
+    
+    <dl class="leftmenu">
+        
+    <dd>
+    <div class="title">
+    <span><img src="__PUBLIC__/home/images/leftico01.png" /></span>补选信息
+    </div>
+    	<ul class="menuson">
+    	<li><cite></cite><a href="index1.html" target="rightFrame">选报方法</a></li>
+        <li><cite></cite><a href="index.html" target="rightFrame">补选课题</a></li>
+        
+        </ul>
+        
+    </dd>
+    </dl>
+    <dl class="leftmenu">
+    <h1> &nbsp; &nbsp;姓名: {$Think.session.username}</h1>
+    <h1> &nbsp; &nbsp;学号:{$Think.session.stuid}</h1>
+    <h1> &nbsp; &nbsp;专业:{$Think.session.xiid}</h1>
+    <h1><font color="red">最终志愿:</font></h1>
+		<volist name="data" id="vol">
+			&nbsp; &nbsp;标题: {$vol.title}<br />
+			&nbsp; &nbsp;导师: {$vol.author}<br />
+			&nbsp; &nbsp;内容: {$vol.content}<br />
+		</volist>
+</body>
+</html>

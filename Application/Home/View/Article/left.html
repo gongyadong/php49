@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/home/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="__PUBLIC__/home/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+
+
+</head>
+
+<body style="background:#f0f9fd;">
+	<div class="lefttop"><span></span>学生信息</div>
+    <!--学生的详细信息-->
+    <dl class="leftmenu">
+		 <h1> &nbsp; &nbsp;姓名: {$Think.session.username}</h1>
+		<h1> &nbsp; &nbsp;学号:{$Think.session.stuid}</h1>
+		<h1> &nbsp; &nbsp;专业:{$Think.session.xiid}</h1>
+		<h1> &nbsp; &nbsp;登陆时间:{$Think.session.logintimes|date="Y-m-d H:i:s",###}</h1>
+		<h1> &nbsp; &nbsp;登陆IP:{$Think.session.lastloginip}</h1>
+		<h1>第1志愿</h1>
+		</div><volist name="data1" id="vol">
+			&nbsp; &nbsp;标题: {$vol.title}<br />
+			&nbsp; &nbsp;导师: {$vol.author}<br />
+			&nbsp; &nbsp;内容: {$vol.content}<br />
+		</volist>
+		<h1>第2志愿</h1>
+		</div><volist name="data2" id="vol">
+			&nbsp; &nbsp;标题: {$vol.title}<br />
+			&nbsp; &nbsp;导师: {$vol.author}<br />
+			&nbsp; &nbsp;内容: {$vol.content}<br />
+		</volist>
+		<h1>第3志愿</h1>
+			</div><volist name="data3" id="vol">
+			&nbsp; &nbsp;标题: {$vol.title}<br />
+			&nbsp; &nbsp;导师: {$vol.author}<br />
+			&nbsp; &nbsp;内容: {$vol.content}<br />
+		</volist>
+    </dl>
+</body>
+</html>

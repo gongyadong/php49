@@ -1,0 +1,44 @@
+[ 2016-08-31T16:27:37+08:00 ] 127.0.0.1 /index.php/Admin/Tab/list.html
+ERR: 非法操作:list
+
+[ 2016-08-31T16:39:23+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: 1054:Unknown column 't1.username' in 'field list'
+ [ SQL语句 ] : SELECT t1.username,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( zyst = 0 ) 
+
+[ 2016-08-31T16:39:55+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'xiid zy1 zy2 zy3 lastloginip FROM `pe_stuuser` WHERE ( zyst = 0 )' at line 1
+ [ SQL语句 ] : SELECT t1.username stuid xiid zy1 zy2 zy3 lastloginip FROM `pe_stuuser` WHERE ( zyst = 0 ) 
+
+[ 2016-08-31T16:41:53+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'xiid zy1 zy2 zy3 lastloginip from pe_stuuser where zyst = 0' at line 1
+ [ SQL语句 ] : select username stuid xiid zy1 zy2 zy3 lastloginip from pe_stuuser where zyst = 0
+
+[ 2016-08-31T16:44:11+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'xiid zy1 zy2 zy3 lastloginip from pe_stuuser where zyst = 0' at line 1
+ [ SQL语句 ] : select username stuid xiid zy1 zy2 zy3 lastloginip from pe_stuuser where zyst = 0
+
+[ 2016-08-31T16:59:06+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: 模板不存在:./Application/Admin/View/Tab/tabforno.html
+
+[ 2016-08-31T16:59:54+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: 模板不存在:./Application/Admin/View/Tab/tabforno.html
+
+[ 2016-08-31T17:03:08+08:00 ] 127.0.0.1 /index.php/Admin/Tab/css/style.css
+ERR: 非法操作:css
+
+[ 2016-08-31T17:03:08+08:00 ] 127.0.0.1 /index.php/Admin/Tab/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-31T17:22:10+08:00 ] 127.0.0.1 /index.php/Admin/Stu/css/style.css
+ERR: 非法操作:css
+
+[ 2016-08-31T17:22:10+08:00 ] 127.0.0.1 /index.php/Admin/Stu/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-08-31T17:31:52+08:00 ] 127.0.0.1 /index.php/Admin/Stu/index.html
+ERR: XML标签语法错误 : name="data"id="vol"
+
+[ 2016-08-31T17:59:59+08:00 ] 127.0.0.1 /index.php/Admin/Stu/index.html
+ERR: 1146:Table 'wly.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+

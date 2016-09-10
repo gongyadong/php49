@@ -1,0 +1,262 @@
+[ 2016-09-06T13:59:21+08:00 ] 127.0.0.1 /index.php/Home/secondary/search.html
+ERR: 模板不存在:./Application/Home/View/Secondary/content.html
+
+[ 2016-09-06T13:59:35+08:00 ] 127.0.0.1 /index.php/Home/secondary/search.html
+ERR: 模板不存在:./Application/Home/View/Secondary/content.html
+
+[ 2016-09-06T13:59:54+08:00 ] 127.0.0.1 /index.php/Home/secondary/search.html
+ERR: 模板不存在:./Application/Home/View/Secondary/content.html
+
+[ 2016-09-06T14:01:03+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( count< ) 
+
+[ 2016-09-06T14:02:10+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( count< ) 
+
+[ 2016-09-06T14:02:18+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( count< ) 
+
+[ 2016-09-06T14:03:48+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`count` like '%王%' or 1=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( 'count<'and `author` LIKE '%王%' or `title` like '%王%' `count` like '%王%' or 1=1 ) 
+
+[ 2016-09-06T14:05:07+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`count` like '%王%' or 1=1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%' `count` like '%王%' or 1=1 ) 
+
+[ 2016-09-06T14:05:24+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`count` like '%王%' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%' `count` like '%王%' ) 
+
+[ 2016-09-06T14:06:42+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`count` like '%王%'and 'count<' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%' `count` like '%王%'and 'count<' ) 
+
+[ 2016-09-06T14:06:48+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`count` like '%王%'and 'count<' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%' `count` like '%王%'and 'count<' ) 
+
+[ 2016-09-06T14:09:08+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`count` like '%%' or 1=1and 'count<' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%%' or `title` like '%%' `count` like '%%' or 1=1and 'count<' ) 
+
+[ 2016-09-06T14:09:36+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 模板不存在:./Application/Home/View/Secondary/content.html
+
+[ 2016-09-06T14:09:48+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 模板不存在:./Application/Home/View/Secondary/insex.html
+
+[ 2016-09-06T14:11:48+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%0%' or `title` like '%0%' or 1=1count< ) 
+
+[ 2016-09-06T14:12:06+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1054:Unknown column '1count' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%0%' or `title` like '%0%' or 1=1count<10 ) 
+
+[ 2016-09-06T14:12:27+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'count<10 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%0%' or `title` like '%0%'count<10 ) 
+
+[ 2016-09-06T14:14:59+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.10 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%''count<' .10 ) 
+
+[ 2016-09-06T14:15:54+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.10 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%'and 'count<' .10 ) 
+
+[ 2016-09-06T14:16:28+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( `author` LIKE '%王%' or `title` like '%王%'and 'count<' 10 ) 
+
+[ 2016-09-06T14:18:18+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''>count' and `author` LIKE '%王%' or `title` like '%王%' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( 10'>count' and `author` LIKE '%王%' or `title` like '%王%' ) 
+
+[ 2016-09-06T14:23:59+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and `author` LIKE '%王%' or `title` like '%王%' or 1=1  )' at line 1
+ [ SQL语句 ] : SELECT * FROM `pe_article` WHERE ( 10count< and `author` LIKE '%王%' or `title` like '%王%' or 1=1  ) 
+
+[ 2016-09-06T14:28:20+08:00 ] 127.0.0.1 /index.php/Home/Secondary/search.html
+ERR: 模板不存在:./Application/Home/View/Secondary/search.html
+
+[ 2016-09-06T14:44:15+08:00 ] 127.0.0.1 /index.php/Home/Stu/del/id/1.html
+ERR: 无法加载控制器:Stu
+
+[ 2016-09-06T16:49:10+08:00 ] 127.0.0.1 /index.php/Home/Index/wwwhenucom
+ERR: 非法操作:wwwhenucom
+
+[ 2016-09-06T17:04:39+08:00 ] 127.0.0.1 /index.php/Home/Secondarye/main.html
+ERR: 无法加载控制器:Secondarye
+
+[ 2016-09-06T17:28:22+08:00 ] 127.0.0.1 /index.php/Home/Article/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `pe_stuuser` [ RunTime:0.0044s ]
+SQL: UPDATE `pe_stuuser` SET `ZY1`='0',`JS1`='0' WHERE `UserID` = 995 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-09-06T17:28:47+08:00 ] 127.0.0.1 /index.php/Home/Article/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `pe_stuuser` [ RunTime:0.0041s ]
+SQL: UPDATE `pe_stuuser` SET `ZY2`='0',`JS2`='0' WHERE `UserID` = 995 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-09-06T17:28:50+08:00 ] 127.0.0.1 /index.php/Home/Article/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `pe_stuuser` [ RunTime:0.0027s ]
+SQL: UPDATE `pe_stuuser` SET `ZY3`='0',`JS3`='0' WHERE `UserID` = 995 [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-09-06T17:29:18+08:00 ] 127.0.0.1 /index.php/Home/Article/twoTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0028s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS zy2,user.jsid AS js2 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS zy2,user.jsid AS js2 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:29:29+08:00 ] 127.0.0.1 /index.php/Home/Article/imgtable.html
+ERR: 非法操作:imgtable
+
+[ 2016-09-06T17:29:34+08:00 ] 127.0.0.1 /index.php/Home/Article/twoTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0030s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS zy2,user.jsid AS js2 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS zy2,user.jsid AS js2 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:29:36+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0029s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:30:45+08:00 ] 127.0.0.1 /index.php/Home/Article/delete.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `pe_stuuser` [ RunTime:0.0036s ]
+SQL: UPDATE `pe_stuuser` SET `ZY1`='0',`JS1`='0' WHERE `UserID` = 995 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-09-06T17:31:03+08:00 ] 127.0.0.1 /index.php/Home/Article/imgtable.html
+ERR: 非法操作:imgtable
+
+[ 2016-09-06T17:31:07+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0036s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:31:12+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0036s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:31:15+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0025s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:31:17+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0035s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:40:04+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0028s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:40:41+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0028s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:42:08+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0027s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+
+[ 2016-09-06T17:42:26+08:00 ] 127.0.0.1 /index.php/Home/Article/firstTaskOk.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `pe_article` [ RunTime:0.0031s ]
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+ERR: 1146:Table 'wly.pe_user' doesn't exist
+ [ SQL语句 ] : SELECT article.articleid AS ZY1,user.jsid AS JS1 FROM pe_article AS article,pe_user AS user WHERE (  article.author = user.username AND article.articleid = 1 ) LIMIT 1  
+

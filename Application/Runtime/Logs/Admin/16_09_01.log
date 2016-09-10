@@ -1,0 +1,115 @@
+[ 2016-09-01T13:23:36+08:00 ] 127.0.0.1 /index.php/Admin/Tab/search.html
+ERR: 非法操作:search
+
+[ 2016-09-01T13:24:24+08:00 ] 127.0.0.1 /index.php/Admin/Tab/search.html
+ERR: 非法操作:search
+
+[ 2016-09-01T13:26:38+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '王' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( 王 ) LIMIT 0,25  
+
+[ 2016-09-01T13:27:14+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 模板不存在:./Application/Admin/View/Stu/search.html
+
+[ 2016-09-01T13:28:08+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '王' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( 王 ) LIMIT 0,25  
+
+[ 2016-09-01T13:28:32+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '王' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( 王 ) LIMIT 0,25  
+
+[ 2016-09-01T13:29:05+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'username.stuid' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username`.`stuid` LIKE '%王%' ) LIMIT 0,25  
+
+[ 2016-09-01T13:34:02+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'username.stuid' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` . `stuid`LIKE '%330%'   ) LIMIT 0,25  
+
+[ 2016-09-01T13:36:14+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username`AND `stuuser`.`stuid` like '%330%'  ) LIMIT 0,25  
+
+[ 2016-09-01T13:36:30+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username` LIKE '%330%' AND `stuuser`.`stuid` like '%330%'  ) LIMIT 0,25  
+
+[ 2016-09-01T13:37:01+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username`,`stuuser`.`stuid` LIKE '%330%'   ) LIMIT 0,25  
+
+[ 2016-09-01T18:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username`,`stuuser`.`stuid` LIKE '%王%'   ) LIMIT 0,25  
+
+[ 2016-09-01T18:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username`,`stuuser`.`stuid` LIKE '%11233%'   ) LIMIT 0,25  
+
+[ 2016-09-01T18:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username` LIKE '%王%'   ) LIMIT 0,25  
+
+[ 2016-09-01T18:16:15+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.stuid' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username`,`stuuser`.`stuid` LIKE '%王%'  ) LIMIT 0,25  
+
+[ 2016-09-01T18:17:21+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column 'stuuser.username' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `stuuser`.`username` LIKE '%王%'   ) LIMIT 0,25  
+
+[ 2016-09-01T18:19:31+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' AND `stuid` LIKE `%王%` ) LIMIT 0,25  
+
+[ 2016-09-01T18:23:16+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' AND `stuid` LIKE `%王%` ) LIMIT 0,25  
+
+[ 2016-09-01T18:26:10+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search/p/2.html
+ERR: 1054:Unknown column '%%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%%' AND `stuid` LIKE `%%` ) 
+
+[ 2016-09-01T18:27:21+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `stuid` LIKE `%112%` )' at line 1
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE (  AND `stuid` LIKE `%112%` ) 
+
+[ 2016-09-01T18:27:36+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `stuid` LIKE `%王%` )' at line 1
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE (  AND `stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T18:27:51+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' AND `stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T18:30:21+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' AND `stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T18:30:39+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' OR `stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T19:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' and `stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T19:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' or`stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T19:52:58+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%112330855%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%112330855%' or `stuid` LIKE `%112330855%` ) 
+
+[ 2016-09-01T19:54:33+08:00 ] 127.0.0.1 /index.php/Admin/Stu/search.html
+ERR: 1054:Unknown column '%王%' in 'where clause'
+ [ SQL语句 ] : SELECT `userid`,`username`,`stuid`,`xiid`,`zy1`,`zy2`,`zy3`,`lastloginip` FROM `pe_stuuser` WHERE ( `username` LIKE '%王%' or `stuid` LIKE `%王%` ) 
+
+[ 2016-09-01T20:13:36+08:00 ] 127.0.0.1 /index.php/Admin/Tab/del.html
+ERR: 非法操作:del
+
+[ 2016-09-01T20:14:25+08:00 ] 127.0.0.1 /index.php/Admin/Tab/del.html
+ERR: 非法操作:del
+

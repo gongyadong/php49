@@ -1,0 +1,36 @@
+[ 2016-09-05T09:08:41+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: 1406:Data too long for column 'UserPassword' at row 1
+ [ SQL语句 ] : update pe_stuuser set username='廉腾飞',stuid=1123304051,xiid='网络工程',userpassword='e10adc3949ba59abbe56e057f20f883e' where userid=941
+
+[ 2016-09-05T09:10:46+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set username='廉腾飞',stuid=1123304051,xiid='网络工程',userpassword='md5(123456)' where userid=941
+
+[ 2016-09-05T09:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set username='廉腾',stuid=1123304051,xiid='网络工程',userpassword='md5(123456)' where userid=941
+
+[ 2016-09-05T09:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set username='廉腾',stuid=1123304051,xiid='网络工程',userpassword='e10adc3949ba59abbe56e057f20f883e' where userid=941
+
+[ 2016-09-05T09:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set UserName='廉腾',StuID=1123304051,XIID='网络工程',UserPassword='e10adc3949ba59abbe56e057f20f883e' where UserId=941
+
+[ 2016-09-05T10:00:02+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set UserName='廉腾飞',StuID=1123304051,XIID='网络工程',UserPassword='e10adc3949ba59abbe56e057f20f883e' where UserID=941
+
+[ 2016-09-05T10:05:08+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set UserName='廉腾飞',StuID=1123304051,XIID='网络工程',UserPassword='e10adc3949ba59abbe56e057f20f883e' where UserID='941'
+
+[ 2016-09-05T10:05:14+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set UserName='廉腾飞',StuID=1123304051,XIID='网络工程',UserPassword='e10adc3949ba59abbe56e057f20f883e' where UserID='941'
+
+[ 2016-09-05T10:06:29+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set UserName='廉腾飞',StuID='1123304051',XIID='网络工程',UserPassword='e10adc3949ba59abbe56e057f20f883e' where UserID='941'
+

@@ -1,0 +1,12 @@
+[ 2016-08-26T08:18:12+08:00 ] 127.0.0.1 /index.php/Admin/Pick/first
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set zyst=0 where zy1 = 0
+
+[ 2016-08-26T08:18:59+08:00 ] 127.0.0.1 /index.php/Admin/Pick/first
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set zyst=0 where zy1 = 0
+
+[ 2016-08-26T08:19:50+08:00 ] 127.0.0.1 /index.php/Admin/Pick/first
+ERR: :
+ [ SQL语句 ] : update pe_stuuser set zyst=0 where zy1 = 0
+

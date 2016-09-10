@@ -1,0 +1,60 @@
+[ 2016-09-03T19:57:47+08:00 ] ::1 /tp/index.php/Admin/Public/css/style.css
+ERR: 非法操作:css
+
+[ 2016-09-03T19:57:47+08:00 ] ::1 /tp/index.php/Admin/Public/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-09-03T19:57:47+08:00 ] ::1 /tp/index.php/Admin/Public/js/cloud.js
+ERR: 非法操作:js
+
+[ 2016-09-03T20:01:02+08:00 ] ::1 /tp/index.php/Admin/Public/css/base.css
+ERR: 非法操作:css
+
+[ 2016-09-03T20:01:02+08:00 ] ::1 /tp/index.php/Admin/Public/css/login.css
+ERR: 非法操作:css
+
+[ 2016-09-03T21:11:46+08:00 ] ::1 /tp/index.php/Admin/Public/__/capatch
+ERR: 非法操作:__
+
+[ 2016-09-03T21:12:22+08:00 ] ::1 /tp/index.php/Admin/Public/capatch1472908342799
+ERR: 非法操作:capatch1472908342799
+
+[ 2016-09-03T21:15:05+08:00 ] ::1 /tp/index.php/Admin/Public/capatch1472908505743
+ERR: 非法操作:capatch1472908505743
+
+[ 2016-09-03T21:15:06+08:00 ] ::1 /tp/index.php/Admin/Public/capatch1472908506839
+ERR: 非法操作:capatch1472908506839
+
+[ 2016-09-03T21:15:07+08:00 ] ::1 /tp/index.php/Admin/Public/capatch1472908507046
+ERR: 非法操作:capatch1472908507046
+
+[ 2016-09-03T21:15:07+08:00 ] ::1 /tp/index.php/Admin/Public/capatch1472908507302
+ERR: 非法操作:capatch1472908507302
+
+[ 2016-09-03T21:33:25+08:00 ] ::1 /tp/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2016-09-03T21:50:31+08:00 ] ::1 /tp/index.php/Admin/Public/loginOK.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_admin` WHERE ( UserName = admin AND Password = 123123 ) LIMIT 1  
+
+[ 2016-09-03T21:55:46+08:00 ] ::1 /tp/index.php/Admin/Public/loginOK.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_admin` WHERE ( username = admin AND password = 123123 ) LIMIT 1  
+
+[ 2016-09-03T22:47:54+08:00 ] ::1 /tp/index.php/Admin/Public/loginOK.html
+ERR: 1054:Unknown column 'ad' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_admin` WHERE (  username ) AND (  ad ) AND (  password ) AND (  123123 ) LIMIT 1  
+
+[ 2016-09-03T22:49:39+08:00 ] ::1 /tp/index.php/Admin/Public/loginOK.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_admin` WHERE (  username ) AND (  admin ) AND (  password ) AND (  123123 ) LIMIT 1  
+
+[ 2016-09-03T22:51:36+08:00 ] ::1 /tp/index.php/Admin/Public/loginOK.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_admin` WHERE ( username = admin ) LIMIT 1  
+
+[ 2016-09-03T23:04:04+08:00 ] ::1 /tp/index.php/Admin/Public/loginOK.html
+ERR: 1054:Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_stuuser` WHERE ( username = 1123106151 and password = 123123 ) LIMIT 1  
+

@@ -1,0 +1,56 @@
+[ 2016-09-04T08:04:50+08:00 ] 127.0.0.1 /index.php/Admin/punlic/login
+ERR: 无法加载控制器:Punlic
+
+[ 2016-09-04T08:07:22+08:00 ] 127.0.0.1 /index.php/Admin/Public/loginOK.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T08:07:31+08:00 ] 127.0.0.1 /index.php/Admin/Tab/table.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T08:07:32+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T08:07:33+08:00 ] 127.0.0.1 /index.php/Admin/Tab/table.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T08:07:34+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T08:07:34+08:00 ] 127.0.0.1 /index.php/Admin/Tab/table.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T08:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Tab/tabforno.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-04T18:09:30+08:00 ] 127.0.0.1 /index.php/Admin/Stu/935
+ERR: 非法操作:935
+
+[ 2016-09-04T18:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Stu/935
+ERR: 非法操作:935
+
+[ 2016-09-04T18:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Stu/$vol.userid
+ERR: 非法操作:$vol.userid
+
+[ 2016-09-04T18:37:56+08:00 ] 127.0.0.1 /index.php/Admin/Stu/alter/id/941.html
+ERR: 1054:Unknown column 'uesrid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_stuuser` WHERE ( uesrid=$get ) 
+
+[ 2016-09-04T18:38:30+08:00 ] 127.0.0.1 /index.php/Admin/Stu/alter/id/941.html
+ERR: 1054:Unknown column 'uesrid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_stuuser` WHERE ( uesrid=941 ) 
+
+[ 2016-09-04T18:39:23+08:00 ] 127.0.0.1 /index.php/Admin/Stu/alter/id/941.html
+ERR: 1054:Unknown column 'uesrid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `pe_stuuser` WHERE ( uesrid=941 ) 
+
+[ 2016-09-04T18:59:25+08:00 ] 127.0.0.1 /index.php/Admin/Stu/alter/id/941.html
+ERR: XML标签语法错误 : name="data"id="vol"
+
+[ 2016-09-04T20:03:09+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( 'userid'==941 )' at line 1
+ [ SQL语句 ] : UPDATE `pe_stuuser` SET  WHERE ( 'userid'==941 )
+
+[ 2016-09-04T20:03:41+08:00 ] 127.0.0.1 /index.php/Admin/Stu/fix.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( 'userid'=941 )' at line 1
+ [ SQL语句 ] : UPDATE `pe_stuuser` SET  WHERE ( 'userid'=941 )
+
